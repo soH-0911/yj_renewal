@@ -1,0 +1,198 @@
+@media screen and (max-width: 1023px) {
+    .section20 .sec20-swiper .swiper-slide {
+        padding-top: 28%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    /* 섹션01-과정정보 */
+    .section01 .class-content .inner-bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2.4rem;
+    }
+    .section01 .class-content .inner-bottom .btn-wrap {
+        gap: 1.6rem;
+        width: 100%;
+    }
+    .section01 .class-content .inner-bottom .btn-wrap a {
+        display: block;
+        width: 50%;
+        text-align: center;
+    }
+
+    /* 섹션02 수강료 및 훈련수당 */
+    .section02 .sec02-article-wrap {
+        flex-direction: column;
+    }
+    .section02 .sec02-article-wrap article {
+        width: 100%;
+        padding: 2rem;
+    }
+    .section02 .sec02-article-wrap article .img-box {
+        width: 4rem;
+        height: 4rem;
+    }
+    .section02 .sec02-article-wrap article .text-wrap {
+        margin-top: 1.2rem;
+    }
+    .section02 .sec02-article-wrap article .text-wrap p:last-of-type {
+        margin-top: 1rem;
+    }
+
+    /* 섹션03-수강생 대상안내 */
+    .section03 .sec03-content01-inner ul {
+        grid-template-columns: 1fr 1fr;
+    }
+    .sec03-content02-inner ul {
+        flex-direction: column;
+    }
+    .sec03-content02-inner ul li {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+    }
+    .sec03-content02-inner ul li .text-wrap {
+        margin-top: 0;
+        width: 100%;
+        text-align: left;
+    }
+    .sec03-content02-inner ul li .text-wrap .break-mo {
+        display: none;
+    }
+    .sec03-content03 .sec03-content03-swiper .review-item .review-text {
+        padding: 0 5%
+    }
+
+    /* 섹션04-멀티플랫폼 반응형 웹 & UIUX 디자인 개발자 양성 */
+    .section04 .list-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+    .section04 .list-wrap li:nth-of-type(1) {
+        background: url(../img/img_sec04_mo01.png) center center/cover no-repeat;
+    }
+    .section04 .list-wrap li:nth-of-type(2) {
+        background: url(../img/img_sec04_mo02.png) center center/cover no-repeat;
+    }
+    .section04 .list-wrap li:nth-of-type(3) {
+        background: url(../img/img_sec04_mo03.png) center center/cover no-repeat;
+    }
+    .section04 .list-wrap li:nth-of-type(4) {
+        background: url(../img/img_sec04_mo04.png) center center/cover no-repeat;
+    }
+    .section04 .list-wrap li:nth-of-type(5) {
+        background: url(../img/img_sec04_mo05.png) center center/cover no-repeat;
+    }
+    .section04 .list-wrap li .img-box {
+        display: none;
+    }
+    .section04 .list-wrap li .text-area {
+        color: #fff;
+        text-align: left;
+    }
+
+    
+    /* 섹션06-카드발급안내 */
+    .section06 .sec06-step-wrap {
+        flex-direction: column;
+    }
+    
+    /* 섹션08-프로젝트로 실무경험 */
+    .section08 .list-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section08 .list-wrap li .img-box {
+        padding-top: 40%;
+    }
+
+    /* 섹션09-커리큘럼 로드맵 */
+    .section09 .list-wrap {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* 섹션11-3d를 활용한 차별화 된 웹구현으로 경쟁력 강화 */
+    .section11 .img-wrap {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    /* 섹션12-포트폴리오 */
+    .section12 .img-wrap {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* 섹션13-k디지털 트레이닝 */
+    .section13 .break-mo {
+        display: none;
+    }
+    .section13 .list-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+    .section13 .list-wrap > li p {
+        text-align: center;
+    }
+    .section13 .list-wrap > li p+ul {
+        display: none;
+    }
+
+    /* 섹션14-k디지털 트레이닝 예시 탭메뉴 */
+    .section14 .float-img02 {
+        width: 16rem;
+        bottom: -5rem;
+    }
+    .section14 .cont_area .float-img01 {
+        width: 8rem;
+    }
+    .section14 .cont_area .tab-inner {
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .section14 .cont_area .tab-inner .sec14-swiper {
+        width: 100%;
+        height: 32rem;
+    }
+
+    /* 섹션15-참여기업 */
+    .section15 .sec15-marquee ul li {
+        padding: 1.6rem 1rem;
+        width: 28rem;
+    }
+
+    /* 섹션17-교육신청 절차 */
+    .section17 .list-wrap {
+        grid-template-columns: 1fr 1fr;
+    }
+    .section17 .list-wrap li img {
+        width: 3.2rem;
+    }
+
+    /* 섹션18-대구국비지원 최우수 훈련기관 영진직업전문학교 */
+    .section18 .list-wrap {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* 섹션19-1:1 맞춤형 취업지원 시스템 */
+    .section19 .list-wrap {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 4rem;
+    }
+    .section19 .btn-wrap a img {
+        width: 5.6rem;
+    }
+    .section19 .hide-pc {
+        display: block;
+    }
+    
+    /* 섹션20-갤러리 */
+    .section20 .sec20-swiper .swiper-slide {
+        padding-top: 56%;
+    }
+}

@@ -1,0 +1,120 @@
+@media screen and (max-width: 425px) {
+    /* 공통 */
+    .break-mo {
+        display: none;
+    }
+
+    
+    /* 섹션01-과정정보 */
+    .section01 .class-content .inner-bottom .btn-wrap {
+        flex-direction: column;
+    }
+    .section01 .class-content .inner-bottom .btn-wrap a {
+        width: 100%;
+    }
+    
+    /* 섹션03-수강생 대상안내 */
+    .section03 .sec03-content01-inner ul {
+        grid-template-columns: 1fr;
+    }
+    .section03 .sec03-content01-inner ul li {
+        padding: 2rem;
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+    }
+    .section03 .sec03-content01-inner ul li .img-box {
+        width: 6rem;
+        flex-shrink: 0;
+    }
+
+    /* 섹션07-정규교과안내 */
+    .section07 .list-wrap {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    /* 섹션08-프로젝트로 실무경험 */
+    .section08 .list-wrap li .img-box {
+        padding-top: 80%;
+    }
+    
+    /* 섹션09-커리큘럼 로드맵 */
+    .section09 .list-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* 섹션11-3d를 활용한 차별화 된 웹구현으로 경쟁력 강화 */
+    .section11 .img-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+    .sec11-youtube-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+    .sec11-youtube-wrap iframe {
+        width: 100%;
+        height: 32rem;
+    }
+        
+    /* 섹션12-포트폴리오 */
+    .section12 .img-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+    .sec12-youtube-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+    .sec12-youtube-wrap iframe {
+        width: 100%;
+        height: 32rem;
+    }
+
+    /* 섹션14-k디지털 트레이닝 예시 탭메뉴 */
+    .section14 .tab_menu .list {
+        display: flex;
+        flex-direction: column;
+    }
+    .section14 .float-img02 {
+        display: none;
+    }
+    .section14 .cont_area .float-img01 {
+        display: none;
+    }
+
+    /* 섹션16-담당교수소개 */
+    .section16 .sec16-swiper .swiper-slide .slide-inner {
+        flex-direction: column;
+    }
+
+    /* 섹션17-교육신청 절차 */
+    .section17 .list-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* 섹션18-대구국비지원 최우수 훈련기관 영진직업전문학교 */
+    .section18 .list-wrap {
+        grid-template-columns: 1fr;
+    }
+    
+    /* 섹션19-1:1 맞춤형 취업지원 시스템 */
+    .section19 .list-wrap {
+        grid-template-columns: 1fr;
+    }
+    .section19 .btn-wrap {
+        grid-template-columns: 1fr;
+    }
+    .section19 .btn-wrap a {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .section19 .hide-pc {
+        display: none;
+    }
+}

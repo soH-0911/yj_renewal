@@ -1,0 +1,66 @@
+:root {
+    --color-gray50: #F8F8F8;
+    --color-gray100: #E6E6E6;
+    --color-gray200: #CCCCCC;
+    --color-gray300: #B3B3B3;
+    --color-gray400: #999999;
+    --color-gray500: #232323;
+    --color-gray600: #666666;
+    --color-gray700: #4D4D4D;
+    --color-gray800: #333333;
+    --color-gray900: #1A1A1A;
+
+    --color-blue50: #E7F2FD;
+    --color-blue100: #D0E5FB;
+    --color-blue200: #A0CBF8;
+    --color-blue300: #71B0F4;
+    --color-blue400: #4296F0;
+    --color-blue500: #106ACA;
+    --color-blue600: #0F63BD;
+    --color-blue700: #0B4A8E;
+    --color-blue800: #07325F;
+    --color-blue900: #04192F;
+
+    --color-purple50: #F2E9FF;
+    --color-purple300: #E1ADFF;
+    --color-purple500: #7728DD;
+
+    --gradient-lightBlue: #FFFFFF, #F2FCFF;
+    --gradient-lightPurple: #FFFFFF, #F6F2FF;
+    --gradient-blue: #41BBFF, #236cfc;
+}
+:root {
+    --font-title-lg: 700 3.2rem/150% "Open Sans", sans-serif;
+    --font-title-md: 700 2.4rem/150% "Open Sans", sans-serif;
+    --font-title-sm: 700 2rem/150% "Open Sans", sans-serif;
+    --font-body-lg: 400 2rem/150% "Open Sans", sans-serif;
+    --font-body-md: 400 1.8rem/150% "Open Sans", sans-serif;
+    --font-body-sm: 400 1.6rem/150% "Open Sans", sans-serif;
+    --font-caption: 400 1.4rem/150% "Open Sans", sans-serif;
+}
+:root {
+    --pd-lg: 12rem 0;
+    --pd-md: 6rem 0;
+    --pd-mix: 12rem 0 6rem;
+    --pd-lg-single: 12rem;
+    --pd-md-single: 6rem
+}
+@media screen and (max-width: 768px) {
+    :root {
+        --font-title-lg: 700 2.4rem/150% "Open Sans", sans-serif;
+        --font-title-md: 700 2rem/150% "Open Sans", sans-serif;
+        --font-title-sm: 700 1.8rem/150% "Open Sans", sans-serif;
+        --font-body-lg: 400 1.8rem/150% "Open Sans", sans-serif;
+        --font-body-md: 400 1.6rem/150% "Open Sans", sans-serif;
+        --font-body-sm: 400 1.5rem/150% "Open Sans", sans-serif;
+        --font-caption: 400 1.2rem/150% "Open Sans", sans-serif;
+    }    
+    :root {
+        --pd-lg: 6rem 0;
+        --pd-md: 4rem 0;
+        --pd-mix: 6rem 0 4rem;
+        --pd-lg-single: 6rem;
+        --pd-md-single: 4rem
+    
+    }
+}
